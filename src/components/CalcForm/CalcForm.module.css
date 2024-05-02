@@ -1,0 +1,45 @@
+.formulario {
+
+    .formularioInput {
+        display: block;
+        margin-bottom: 18px;
+        font-size: 24px;
+        width: 100%;
+        
+        &:focus {
+            outline: 1px solid var(--primary-color);
+        }
+    }
+
+    .botao {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        font-size: 1em;
+        cursor: pointer;
+        background-color: var(--primary-color);
+        color: #fff;
+        border: none;
+
+        &:hover {
+            background-color: var(--primary-color-dark);
+        }
+
+        &:active {
+            background-color: var(--primary-color-light);
+        }
+    }
+}
+
+.resultado {
+    margin-top: 20px;
+    background-color: #01FEC3;
+    padding: 5px;
+    text-align: center;
+    display: none;
+}
+
+.invalido {
+    background-color: rgb(211, 101, 101);
+    color: #eee;
+}
